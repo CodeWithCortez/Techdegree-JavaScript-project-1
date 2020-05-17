@@ -19,7 +19,7 @@ var quotes = [
         source: '2Pac',
         citation: 'Smile',
         year: '1997',
-        tag: 'Hip Hop'
+        tag: ' Hip Hop'
      
     },
 
@@ -28,7 +28,7 @@ var quotes = [
         source: '2Pac',
         citation: 'Unconditional Love',
         year: '1998',
-        tag: 'Hip Hop'
+        tag: ' Hip Hop'
     },
 
     {
@@ -36,7 +36,7 @@ var quotes = [
         source: '2Pac',
         citation: 'Me Against The World',
         year: '1995',
-        tag: 'Hip Hop'
+        tag: ' Hip Hop'
     },
 
     {
@@ -44,7 +44,7 @@ var quotes = [
         source: '2Pac',
         citation: 'Thugz Mansion',
         year: '2002',
-        tag: 'Hip Hop'
+        tag: ' Hip Hop'
     },
 
     {
@@ -52,7 +52,7 @@ var quotes = [
         source: '2Pac',
         citation: "Keep ya' Head up",
         year: '1993',
-        tag: 'Hip Hop'
+        tag: ' Hip Hop'
     }
 ];
 
@@ -92,7 +92,7 @@ function printQuote(){
     }
     
     printHTML += '</p>';
-    document.getElementById('quote-box').innerHTML = printHTML'; 
+    document.getElementById('quote-box').innerHTML = printHTML; 
     random_bg_color();
   
 }
