@@ -19,8 +19,8 @@ var quotes = [
         source: '2Pac',
         citation: 'Smile',
         year: '1997',
-        tag: 'Hip Hop',
-        pic: 'https://static.billboard.com/files/media/tupac-bw-portrait-photofest-billboard-1548-768x433.jpg'
+        tag: 'Hip Hop'
+     
     },
 
     {
@@ -28,8 +28,7 @@ var quotes = [
         source: '2Pac',
         citation: 'Unconditional Love',
         year: '1998',
-        tag: 'Hip Hop',
-        pic: 'https://static.billboard.com/files/media/tupac-bw-portrait-photofest-billboard-1548-768x433.jpg'
+        tag: 'Hip Hop'
     },
 
     {
@@ -37,8 +36,7 @@ var quotes = [
         source: '2Pac',
         citation: 'Me Against The World',
         year: '1995',
-        tag: 'Hip Hop',
-        pic: 'https://static.billboard.com/files/media/tupac-bw-portrait-photofest-billboard-1548-768x433.jpg'
+        tag: 'Hip Hop'
     },
 
     {
@@ -46,8 +44,7 @@ var quotes = [
         source: '2Pac',
         citation: 'Thugz Mansion',
         year: '2002',
-        tag: 'Hip Hop',
-        pic: 'https://static.billboard.com/files/media/tupac-bw-portrait-photofest-billboard-1548-768x433.jpg'
+        tag: 'Hip Hop'
     },
 
     {
@@ -55,8 +52,7 @@ var quotes = [
         source: '2Pac',
         citation: "Keep ya' Head up",
         year: '1993',
-        tag: 'Hip Hop',
-        pic: 'https://static.billboard.com/files/media/tupac-bw-portrait-photofest-billboard-1548-768x433.jpg'
+        tag: 'Hip Hop'
     }
 ];
 
@@ -94,16 +90,14 @@ function printQuote(){
     if(randomQuote.tag){
         printHTML += '<span class="tag">' +  randomQuote.tag  +  '</span>';
     }
-    if(randomQuote.pic){
-        printHTML += '<span class="pic">' + randomQuote.pic + '</span>;'
-    }
+    
     printHTML += '</p>';
-    document.getElementById('quote-box').innerHTML = printHTML + randomQuote.pic + '<img src="https://static.billboard.com/files/media/tupac-bw-portrait-photofest-billboard-1548-768x433.jpg"'; 
+    document.getElementById('quote-box').innerHTML = printHTML'; 
     random_bg_color();
   
 }
 
-// This method executes a function every 10 seconds. Found here --> https://www.w3schools.com/js/js_timing.asp
+// This method executes the printQuote function every 10 seconds. Found here --> https://www.w3schools.com/js/js_timing.asp
 setInterval(printQuote, 10000);
 
 
